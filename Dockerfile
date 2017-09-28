@@ -16,4 +16,4 @@ RUN alias gams=/gams24.9_linux_x64_64_sfx/gams
 RUN alias gamslib=/gams24.9_linux_x64_64_sfx/gamslib
 
 # activate the api
-RUN python /gams24.9_linux_x64_64_sfx/apifiles/Python/api_34/setup.py install
+RUN python3.4 /gams24.9_linux_x64_64_sfx/apifiles/Python/api_34/setup.py install
