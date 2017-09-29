@@ -4,6 +4,7 @@ RUN apt-get update && apt-get install -y \
     curl \
     software-properties-common \
     git \
+    ftp \
     python3-pip \
     build-essential python3-dev
 
